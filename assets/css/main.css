@@ -48,6 +48,13 @@
 		-webkit-text-size-adjust: none;
 	}
 
+   div.sub, iframe {
+    margin: 0 auto;
+    text-align: center;
+
+    }
+
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1817,7 +1824,7 @@
 	hr {
 		border: 0;
 		border-bottom: solid 1px #c9c9c9;
-		margin: 2em 0;
+        z-index: 30;
 	}
 
 		hr.major {
